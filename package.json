@@ -1,0 +1,28 @@
+{
+  "name": "hlr-example",
+  "version": "1.0.0",
+  "description": "A Hidden Line Removal Test for AxiDraw",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://revdancatt@github.com/revdancatt/HLR-example.git"
+  },
+  "keywords": [
+    "genartclub",
+    "penplotting",
+    "axidraw",
+    "fxhash"
+  ],
+  "author": "revdancatt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/revdancatt/HLR-example/issues"
+  },
+  "homepage": "https://github.com/revdancatt/HLR-example#readme",
+  "devDependencies": {
+    "standard": "^17.0.0"
+  }
+}
