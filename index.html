@@ -2,8 +2,26 @@
 <html>
 
 <head>
-  <title>HLR example</title>
   <meta charset="utf-8">
+  <title>Hidden Line Removal Test - DEMO COPY 🤖🖋</title>
+  <!--
+    //
+    //  HEXAGONES - art for bots - revdancatt ??/??/2022
+    //
+    //
+    //  HELLO!! Code is copyright revdancatt (that's me), so no sneaky using it for your
+    //  NFT projects.
+    //  But please feel free to unpick it, and ask me questions. A quick note, this is written
+    //  as an artist, which is a slightly different (and more storytelling way) of writing
+    //  code, than if this was an engineering project. I've tried to keep it somewhat readable
+    //  rather than doing clever shortcuts, that are cool, but harder for people to understand.
+    //
+    //  You can find me at...
+    //  https://twitter.com/revdancatt
+    //  https://instagram.com/revdancatt
+    //  https://youtube.com/revdancatt
+    //
+  -->
   <script id="fxhash-snippet">
     //---- do not edit the following code (you can indent as you wish)
     let search = new URLSearchParams(window.location.search)
@@ -39,10 +57,12 @@
     var isFxpreview = search.get('preview') === "1"
     // call this method to trigger the preview
     function fxpreview() {
-      console.log("FXPREVIEW")
-      // window.dispatchEvent(new Event("fxhash-preview"))
-      // setTimeout(() => fxpreview(), 500)
+      window.dispatchEvent(new Event("fxhash-preview"))
+      setTimeout(() => fxpreview(), 500)
     }
+    //
+    // NEW: v2 of the fxhash SDK lol
+    //
     // get the byte params from the URL
     let fxparams = search.get('fxparams')
     fxparams = fxparams ? fxparams.replace("0x", "") : fxparams
@@ -260,7 +280,7 @@
     }
 
     window.$fx = {
-      _version: "3.0.0",
+      _version: "3.0.1",
       _processors: processors,
       // where params def & features will be stored
       _params: undefined,
@@ -277,8 +297,6 @@
       preview: fxpreview,
       isPreview: isFxpreview,
       params: function (definition) {
-        // todo: maybe do some validation on the dev side ?
-        // or maybe not ?
         this._params = definition
         this._rawValues = deserializeParams(fxparams, definition)
         this._paramValues = transformParamValues(this._rawValues, definition)
@@ -331,7 +349,6 @@
               definitions: window.$fx.getDefinitions(),
               values: window.$fx.getRawParams(),
             },
-            minter: window.$fx.minter,
           },
         }, "*")
       }
@@ -340,6 +357,7 @@
 
     //---- /do not edit the following code
   </script>
+
   <!-- if you need to import js scripts do it here -->
 </head>
 

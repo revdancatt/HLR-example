@@ -1,10 +1,22 @@
-# HLR-example
+## About
 
 A quick "stress test" for the new Hidden Line Removal feature of the AxiDraw tools.
 
-This code is so I can quickly create 5,000+ overlapping rectangles, which can then be used to test the HLR option in the AxiDraw InkScape extension, CLI and Python.
+This code is so I can quickly create 5,000+ overlapping rectangles, which can then be used to test the HLR option in the AxiDraw InkScape extension, CLI and Python. I decided the best way to try this out was creating an fxparams projects, as it gave me a nice UI to work in.
+
+Because this is supposed to be a tool and not an artwork no-one was really supposed to buy it, but I also wanted to be able to mint copies to I could carry on using it. But then someone bought them 😆
 
 ![plots](https://gateway.fxhash2.xyz/ipfs/QmcnapdnfgGt5w7vJPDVnAb7BhKAGeGhKucNKxR4yFuMUn)
+
+## Places
+
+* Canonical project page: https://www.fxhash.xyz/generative/27402
+* High-resolution page: https://revdancatt.com/art/HLR-27402
+* "Right Click Save" edition: https://revdancatt.com/RCS/HLR-27402
+
+**Canonical**: where the v1 of the project was first published  
+**High-res**: where the project lives on my website with high-res outputs  
+**RCS edition**: where the latest updated version of the project lives
 
 ## Installation
 
